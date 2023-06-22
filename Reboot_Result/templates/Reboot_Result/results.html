@@ -1,0 +1,25 @@
+{% extends 'Reboot_Result/main.html' %}
+{% load static %}
+{% block content %}
+
+<div class="main">
+  <h1>{{path}}</h1>
+  <ul class="filetree">
+    {% for item in folder_content %}
+    <li id="urls" data-get-folder-contents-url="{% url 'getFolderContents' %}" data-get-file-contents-url="{% url 'getFileContents' %}">
+      <a data-path="{{path}}/{{item.file_name}}" data-filetype="{{item.file_type}}" class="clickable">
+        <i class="fa fa-{{item.icon}}"></i>
+        <strong>{{item.file_name}}</strong>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+<div class="content">
+  <div class="display-content">
+   
+  </div>
+</div>
+
+<script src="{% static 'Reboot_Result/js/main.js' %}"></script>
+{% endblock content %}

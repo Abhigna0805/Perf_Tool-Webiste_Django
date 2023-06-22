@@ -1,0 +1,138 @@
+#logo-icon{
+    width:180px;
+    display:inline-block; 
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+}
+.sidenav {
+  height: 100%;
+  width: 20%;
+   position: fixed;
+  z-index: 1;
+  margin-top: 10px;
+  left: 0; 
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+  text-decoration: none;
+  display: block;
+}
+.sidenav a:hover {
+  color: #ee79da;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+body {
+  width:100%;
+  font-family:Nunito;
+}
+.main {
+ margin-top: 50px; 
+ z-index: 0; 
+ font-family:Nunito;
+ margin-left: 20%;
+}
+#logo-icon2{
+    width:160px;
+    margin:15px;
+    display:inline-block;  
+}
+h1 {
+  width:100%;
+  font-size: 30px;
+  font-family:Nunito;
+}
+#my {
+     width:100%;
+    font-size: 30px;         
+}     
+.box-ele1{  
+ margin:2px 0; 
+width: 100%;
+white-space: nowrap; 
+overflow: hidden; 
+text-overflow: ellipsis;
+display: inline-block;
+}    
+.box-ele1 button {  
+  float: right; 
+  margin-left: 10px;
+}
+@media (min-width: 768px) {
+.box-ele1 {
+width: calc(100% - 260px);
+}
+}
+.noactive{
+     visibility: none;
+}
+
+li:hover{
+  cursor: pointer;
+}
+* {
+box-sizing: border-box;
+}
+table{
+ width:100%;
+}
+table, th, td {
+    border: 1px solid #ee79da;
+     border-collapse: collapse;
+ }
+th, td {
+   padding: 5px;
+    text-align: center;
+    }
+.box {
+float: right;
+width: 33.33%;
+padding: 50px;
+}     
+.content {
+  right: 0px;
+  float: right;
+  position: absolute;
+    height: 100vh;
+    width: 77vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.display-content{
+  margin:auto;
+  width: 70vw;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-top: 60px;
+  flex-grow: 1;
+  overflow-x: auto;
+}
+
+.filetree {
+  font-size: 20px;
+}
+
+.filetree li ul.collapsed {
+  display: none;
+}
+h5{
+  font-family:Nunito;
+  line-height: 1.5;
+}
+h4{
+  font-family:Nunito;
+  line-height: 1.5;
+}
+.mail a{
+ color: var(--bs-secondary);
+}

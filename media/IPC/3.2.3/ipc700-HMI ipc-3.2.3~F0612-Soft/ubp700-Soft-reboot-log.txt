@@ -1,0 +1,3620 @@
+Checking if dependency sshpass is installed or not...
+Checking for sshpass: install ok installed
+Panel is reachable
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh -o 'ProxyCommand=none' -o 'StrictHostKeyChecking=no' -o 'UserKnownHostsFile=/dev/null' -o 'ServerAliveInterval=2' -o 'LogLevel=ERROR' 'root@134.86.254.71'"
+and check to make sure that only the key(s) you wanted were added.
+
+Sleep Interval between reboots will be 180  seconds 
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.79032 s, 68.9 MB/s
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.6049 s, 70.9 MB/s
+realboot.sh Test Start Time = 06-02-2023-03-27-12 
+Rebooting the panel for the 1st time to start the test...
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 1
+NOW is 06-02-2023-03-31-31
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.79344 s, 68.9 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.6063 s, 70.9 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-03-28-23
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-03-32-45
+ --------------
+Creating CSV REPORT...
+./realboot.sh: line 592: DMESGERROR: unbound variable
+Creating MARKDOWN REPORT...
+| 1 | 262 |  15.811  | 4.155 |  11.656  | FAILED | [Click here for Details](06-02-2023-03-27-12/1/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 2
+NOW is 06-02-2023-03-36-03
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78262 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.954 s, 70.5 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-03-32-45
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-03-37-17
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",2,262, 15.893 ,4.111, 11.782 ,5.870,5.895,,,,1.166,Error
+Creating MARKDOWN REPORT...
+| 2 | 262 |  15.893  | 4.111 |  11.782  | FAILED | [Click here for Details](06-02-2023-03-27-12/2/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 3
+NOW is 06-02-2023-03-40-35
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78248 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8489 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-03-37-17
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-03-41-50
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",3,263, 15.171 ,4.175, 10.995 ,6.219,5.890,,,,1.089,Error
+Creating MARKDOWN REPORT...
+| 3 | 263 |  15.171  | 4.175 |  10.995  | FAILED | [Click here for Details](06-02-2023-03-27-12/3/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 4
+NOW is 06-02-2023-03-45-08
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77612 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.9918 s, 70.4 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-03-41-50
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-03-46-22
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",4,263, 16.204 ,4.148, 12.056 ,5.697,5.658,,,,1.100,Error
+Creating MARKDOWN REPORT...
+| 4 | 263 |  16.204  | 4.148 |  12.056  | FAILED | [Click here for Details](06-02-2023-03-27-12/4/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 5
+NOW is 06-02-2023-03-49-40
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77508 s, 69.1 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.967 s, 70.4 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-03-46-22
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-03-50-54
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",5,263, 15.226 ,4.147, 11.079 ,6.430,5.844,,,,967m,Error
+Creating MARKDOWN REPORT...
+| 5 | 263 |  15.226  | 4.147 |  11.079  | FAILED | [Click here for Details](06-02-2023-03-27-12/5/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 6
+NOW is 06-02-2023-03-54-12
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78283 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 61.0084 s, 70.4 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-03-50-54
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-03-55-26
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",6,262, 16.238 ,4.136, 12.101 ,5.917,5.628,,,,1.037,Error
+Creating MARKDOWN REPORT...
+| 6 | 262 |  16.238  | 4.136 |  12.101  | FAILED | [Click here for Details](06-02-2023-03-27-12/6/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 7
+NOW is 06-02-2023-03-58-45
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78495 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8771 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-03-55-26
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-03-59-59
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",7,263, 14.957 ,4.100, 10.856 ,6.442,5.972,,,,1.105,Error
+Creating MARKDOWN REPORT...
+| 7 | 263 |  14.957  | 4.100 |  10.856  | FAILED | [Click here for Details](06-02-2023-03-27-12/7/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 8
+NOW is 06-02-2023-04-03-17
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78267 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.6329 s, 70.8 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-03-59-59
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-04-04-30
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",8,262, 14.970 ,4.148, 10.821 ,6.402,5.868,,,,969m,Error
+Creating MARKDOWN REPORT...
+| 8 | 262 |  14.970  | 4.148 |  10.821  | FAILED | [Click here for Details](06-02-2023-03-27-12/8/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 9
+NOW is 06-02-2023-04-07-49
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77628 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 61.083 s, 70.3 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-04-04-30
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-04-09-03
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",9,263, 15.065 ,4.143, 10.922 ,6.348,5.911,,,,1.181,Error
+Creating MARKDOWN REPORT...
+| 9 | 263 |  15.065  | 4.143 |  10.922  | FAILED | [Click here for Details](06-02-2023-03-27-12/9/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 10
+NOW is 06-02-2023-04-12-21
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.79285 s, 68.9 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.9379 s, 70.5 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-04-09-03
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-04-13-35
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",10,262, 14.959 ,4.147, 10.812 ,6.406,5.874,,,,1.093,Error
+Creating MARKDOWN REPORT...
+| 10 | 262 |  14.959  | 4.147 |  10.812  | FAILED | [Click here for Details](06-02-2023-03-27-12/10/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 11
+NOW is 06-02-2023-04-16-53
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77972 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.6823 s, 70.8 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-04-13-35
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-04-18-07
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",11,262, 15.113 ,4.111, 11.002 ,6.313,5.905,,,,1.103,Error
+Creating MARKDOWN REPORT...
+| 11 | 262 |  15.113  | 4.111 |  11.002  | FAILED | [Click here for Details](06-02-2023-03-27-12/11/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 12
+NOW is 06-02-2023-04-21-25
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77867 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.6138 s, 70.9 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-04-18-07
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-04-22-39
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",12,262, 15.077 ,4.130, 10.947 ,6.387,5.773,,,,1.222,Error
+Creating MARKDOWN REPORT...
+| 12 | 262 |  15.077  | 4.130 |  10.947  | FAILED | [Click here for Details](06-02-2023-03-27-12/12/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 13
+NOW is 06-02-2023-04-25-57
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.76888 s, 69.1 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8561 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-04-22-39
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-04-27-12
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",13,263, 15.207 ,4.152, 11.054 ,6.238,5.848,,,,1.205,Error
+Creating MARKDOWN REPORT...
+| 13 | 263 |  15.207  | 4.152 |  11.054  | FAILED | [Click here for Details](06-02-2023-03-27-12/13/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 14
+NOW is 06-02-2023-04-30-30
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77818 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.7994 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-04-27-12
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-04-31-44
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",14,263, 15.729 ,4.100, 11.629 ,6.121,5.920,,,,1.054,Error
+Creating MARKDOWN REPORT...
+| 14 | 263 |  15.729  | 4.100 |  11.629  | FAILED | [Click here for Details](06-02-2023-03-27-12/14/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 15
+NOW is 06-02-2023-04-35-02
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77745 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.9421 s, 70.5 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-04-31-44
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-04-36-16
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",15,263, 14.994 ,4.128, 10.865 ,6.450,5.995,,,,1.052,Error
+Creating MARKDOWN REPORT...
+| 15 | 263 |  14.994  | 4.128 |  10.865  | FAILED | [Click here for Details](06-02-2023-03-27-12/15/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 16
+NOW is 06-02-2023-04-39-34
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77892 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8478 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-04-36-16
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-04-40-48
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",16,263, 15.172 ,4.179, 10.992 ,6.441,5.804,,,,1.127,Error
+Creating MARKDOWN REPORT...
+| 16 | 263 |  15.172  | 4.179 |  10.992  | FAILED | [Click here for Details](06-02-2023-03-27-12/16/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 17
+NOW is 06-02-2023-04-44-06
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.7815 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.5447 s, 70.9 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-04-40-48
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-04-45-20
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",17,262, 15.516 ,4.140, 11.375 ,5.857,5.811,,,,1.151,Error
+Creating MARKDOWN REPORT...
+| 17 | 262 |  15.516  | 4.140 |  11.375  | FAILED | [Click here for Details](06-02-2023-03-27-12/17/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 18
+NOW is 06-02-2023-04-48-38
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78611 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.7141 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-04-45-20
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-04-49-52
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",18,263, 14.882 ,4.123, 10.758 ,6.389,5.891,,,,1.079,Error
+Creating MARKDOWN REPORT...
+| 18 | 263 |  14.882  | 4.123 |  10.758  | FAILED | [Click here for Details](06-02-2023-03-27-12/18/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 19
+NOW is 06-02-2023-04-53-10
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78273 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.842 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-04-49-52
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-04-54-24
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",19,262, 15.075 ,4.123, 10.951 ,6.094,5.886,,,,1.240,Error
+Creating MARKDOWN REPORT...
+| 19 | 262 |  15.075  | 4.123 |  10.951  | FAILED | [Click here for Details](06-02-2023-03-27-12/19/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 20
+NOW is 06-02-2023-04-57-42
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78739 s, 68.9 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.7452 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-04-54-24
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-04-58-56
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",20,262, 14.661 ,4.142, 10.519 ,6.586,6.094,,,,1.086,Error
+Creating MARKDOWN REPORT...
+| 20 | 262 |  14.661  | 4.142 |  10.519  | FAILED | [Click here for Details](06-02-2023-03-27-12/20/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 21
+NOW is 06-02-2023-05-02-14
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77392 s, 69.1 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.7225 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-04-58-56
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-05-03-28
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",21,262, 15.361 ,4.149, 11.212 ,6.002,5.860,,,,1.027,Error
+Creating MARKDOWN REPORT...
+| 21 | 262 |  15.361  | 4.149 |  11.212  | FAILED | [Click here for Details](06-02-2023-03-27-12/21/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 22
+NOW is 06-02-2023-05-06-46
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77956 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.7191 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-05-03-28
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-05-08-00
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",22,262, 16.293 ,4.123, 12.169 ,5.813,5.946,,,,1.063,Error
+Creating MARKDOWN REPORT...
+| 22 | 262 |  16.293  | 4.123 |  12.169  | FAILED | [Click here for Details](06-02-2023-03-27-12/22/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 23
+NOW is 06-02-2023-05-11-18
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.756 s, 69.2 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.9968 s, 70.4 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-05-08-00
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-05-12-33
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",23,263, 15.117 ,4.148, 10.969 ,6.198,6.022,,,,1.075,Error
+Creating MARKDOWN REPORT...
+| 23 | 263 |  15.117  | 4.148 |  10.969  | FAILED | [Click here for Details](06-02-2023-03-27-12/23/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 24
+NOW is 06-02-2023-05-15-51
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78573 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8469 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-05-12-33
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-05-17-05
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",24,263, 16.548 ,4.148, 12.399 ,5.866,5.737,,,,1.137,Error
+Creating MARKDOWN REPORT...
+| 24 | 263 |  16.548  | 4.148 |  12.399  | FAILED | [Click here for Details](06-02-2023-03-27-12/24/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 25
+NOW is 06-02-2023-05-20-23
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77695 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8563 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-05-17-05
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-05-21-37
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",25,262, 15.158 ,4.117, 11.040 ,6.589,6.107,,,,1.226,Error
+Creating MARKDOWN REPORT...
+| 25 | 262 |  15.158  | 4.117 |  11.040  | FAILED | [Click here for Details](06-02-2023-03-27-12/25/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 26
+NOW is 06-02-2023-05-24-55
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78418 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.76 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-05-21-37
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-05-26-09
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",26,262, 16.041 ,4.136, 11.904 ,5.741,6.101,,,,1.105,Error
+Creating MARKDOWN REPORT...
+| 26 | 262 |  16.041  | 4.136 |  11.904  | FAILED | [Click here for Details](06-02-2023-03-27-12/26/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 27
+NOW is 06-02-2023-05-29-27
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78032 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 61.0144 s, 70.4 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-05-26-09
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-05-30-41
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",27,262, 16.417 ,4.187, 12.229 ,5.898,5.856,,,,1.007,Error
+Creating MARKDOWN REPORT...
+| 27 | 262 |  16.417  | 4.187 |  12.229  | FAILED | [Click here for Details](06-02-2023-03-27-12/27/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 28
+NOW is 06-02-2023-05-33-59
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78545 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.9562 s, 70.5 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-05-30-41
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-05-35-13
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",28,262, 16.131 ,4.135, 11.996 ,5.756,5.677,,,,1.181,Error
+Creating MARKDOWN REPORT...
+| 28 | 262 |  16.131  | 4.135 |  11.996  | FAILED | [Click here for Details](06-02-2023-03-27-12/28/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 29
+NOW is 06-02-2023-05-38-32
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77673 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.5398 s, 70.9 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-05-35-13
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-05-39-45
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",29,262, 16.119 ,4.131, 11.988 ,5.866,5.752,,,,1.131,Error
+Creating MARKDOWN REPORT...
+| 29 | 262 |  16.119  | 4.131 |  11.988  | FAILED | [Click here for Details](06-02-2023-03-27-12/29/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 30
+NOW is 06-02-2023-05-43-03
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78134 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.857 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-05-39-45
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-05-44-17
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",30,262, 15.133 ,4.143, 10.989 ,6.492,5.793,,,,1.080,Error
+Creating MARKDOWN REPORT...
+| 30 | 262 |  15.133  | 4.143 |  10.989  | FAILED | [Click here for Details](06-02-2023-03-27-12/30/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 31
+NOW is 06-02-2023-05-47-36
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77454 s, 69.1 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8034 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-05-44-17
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-05-48-50
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",31,263, 15.051 ,4.164, 10.886 ,6.550,5.818,,,,1.012,Error
+Creating MARKDOWN REPORT...
+| 31 | 263 |  15.051  | 4.164 |  10.886  | FAILED | [Click here for Details](06-02-2023-03-27-12/31/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 32
+NOW is 06-02-2023-05-52-08
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77865 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.833 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-05-48-50
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-05-53-22
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",32,263, 15.556 ,4.115, 11.440 ,6.058,6.038,,,,1.061,Error
+Creating MARKDOWN REPORT...
+| 32 | 263 |  15.556  | 4.115 |  11.440  | FAILED | [Click here for Details](06-02-2023-03-27-12/32/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 33
+NOW is 06-02-2023-05-56-40
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.7827 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.9982 s, 70.4 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-05-53-22
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-05-57-54
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",33,262, 15.396 ,4.157, 11.239 ,5.932,6.009,,,,1.100,Error
+Creating MARKDOWN REPORT...
+| 33 | 262 |  15.396  | 4.157 |  11.239  | FAILED | [Click here for Details](06-02-2023-03-27-12/33/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 34
+NOW is 06-02-2023-06-01-12
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.76867 s, 69.1 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.6137 s, 70.9 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-05-57-54
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-06-02-26
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",34,262, 15.137 ,4.100, 11.036 ,6.308,5.909,,,,1.132,Error
+Creating MARKDOWN REPORT...
+| 34 | 262 |  15.137  | 4.100 |  11.036  | FAILED | [Click here for Details](06-02-2023-03-27-12/34/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 35
+NOW is 06-02-2023-06-05-44
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78334 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.9543 s, 70.5 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-06-02-26
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-06-06-58
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",35,262, 14.906 ,4.143, 10.763 ,6.594,5.790,,,,959m,Error
+Creating MARKDOWN REPORT...
+| 35 | 262 |  14.906  | 4.143 |  10.763  | FAILED | [Click here for Details](06-02-2023-03-27-12/35/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 36
+NOW is 06-02-2023-06-10-16
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77281 s, 69.1 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.5817 s, 70.9 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-06-06-58
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-06-11-30
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",36,262, 16.155 ,4.129, 12.026 ,5.919,5.924,,,,1.095,Error
+Creating MARKDOWN REPORT...
+| 36 | 262 |  16.155  | 4.129 |  12.026  | FAILED | [Click here for Details](06-02-2023-03-27-12/36/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 37
+NOW is 06-02-2023-06-14-48
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78332 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.5043 s, 71.0 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-06-11-30
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-06-16-02
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",37,262, 16.157 ,4.131, 12.026 ,5.990,5.894,,,,993m,Error
+Creating MARKDOWN REPORT...
+| 37 | 262 |  16.157  | 4.131 |  12.026  | FAILED | [Click here for Details](06-02-2023-03-27-12/37/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 38
+NOW is 06-02-2023-06-19-20
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78444 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8643 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-06-16-02
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-06-20-34
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",38,262, 15.085 ,4.149, 10.936 ,6.311,5.862,,,,1.097,Error
+Creating MARKDOWN REPORT...
+| 38 | 262 |  15.085  | 4.149 |  10.936  | FAILED | [Click here for Details](06-02-2023-03-27-12/38/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 39
+NOW is 06-02-2023-06-23-53
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77956 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.6448 s, 70.8 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-06-20-34
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-06-25-06
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",39,262, 16.056 ,4.156, 11.900 ,6.006,5.814,,,,1.044,Error
+Creating MARKDOWN REPORT...
+| 39 | 262 |  16.056  | 4.156 |  11.900  | FAILED | [Click here for Details](06-02-2023-03-27-12/39/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 40
+NOW is 06-02-2023-06-28-25
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78054 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.6254 s, 70.8 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-06-25-06
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-06-29-38
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",40,262, 15.734 ,4.175, 11.559 ,5.892,5.820,,,,1.133,Error
+Creating MARKDOWN REPORT...
+| 40 | 262 |  15.734  | 4.175 |  11.559  | FAILED | [Click here for Details](06-02-2023-03-27-12/40/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 41
+NOW is 06-02-2023-06-32-56
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77723 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.681 s, 70.8 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-06-29-38
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-06-34-10
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",41,262, 15.801 ,4.144, 11.657 ,6.081,6.087,,,,1.071,Error
+Creating MARKDOWN REPORT...
+| 41 | 262 |  15.801  | 4.144 |  11.657  | FAILED | [Click here for Details](06-02-2023-03-27-12/41/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 42
+NOW is 06-02-2023-06-37-28
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.76941 s, 69.1 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.7641 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-06-34-10
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-06-38-42
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",42,262, 16.304 ,4.101, 12.203 ,5.793,5.899,,,,1.229,Error
+Creating MARKDOWN REPORT...
+| 42 | 262 |  16.304  | 4.101 |  12.203  | FAILED | [Click here for Details](06-02-2023-03-27-12/42/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 43
+NOW is 06-02-2023-06-42-01
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.74913 s, 69.3 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.9172 s, 70.5 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-06-38-42
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-06-43-15
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",43,263, 15.080 ,4.157, 10.922 ,6.399,5.835,,,,1.127,Error
+Creating MARKDOWN REPORT...
+| 43 | 263 |  15.080  | 4.157 |  10.922  | FAILED | [Click here for Details](06-02-2023-03-27-12/43/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 44
+NOW is 06-02-2023-06-46-33
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.79013 s, 68.9 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.9472 s, 70.5 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-06-43-15
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-06-47-47
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",44,263, 15.243 ,4.158, 11.084 ,6.311,5.937,,,,1.104,Error
+Creating MARKDOWN REPORT...
+| 44 | 263 |  15.243  | 4.158 |  11.084  | FAILED | [Click here for Details](06-02-2023-03-27-12/44/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 45
+NOW is 06-02-2023-06-51-05
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77552 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8721 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-06-47-47
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-06-52-19
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",45,262, 16.075 ,4.145, 11.930 ,5.922,5.735,,,,1.134,Error
+Creating MARKDOWN REPORT...
+| 45 | 262 |  16.075  | 4.145 |  11.930  | FAILED | [Click here for Details](06-02-2023-03-27-12/45/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 46
+NOW is 06-02-2023-06-55-37
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77951 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 62.2468 s, 69.0 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 264
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-06-52-19
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-06-56-53
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",46,264, 16.026 ,4.102, 11.924 ,5.829,5.860,,,,1.100,Error
+Creating MARKDOWN REPORT...
+| 46 | 264 |  16.026  | 4.102 |  11.924  | FAILED | [Click here for Details](06-02-2023-03-27-12/46/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 47
+NOW is 06-02-2023-07-00-11
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78116 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8405 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-06-56-53
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-07-01-25
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",47,262, 15.758 ,4.118, 11.640 ,5.975,5.888,,,,1.090,Error
+Creating MARKDOWN REPORT...
+| 47 | 262 |  15.758  | 4.118 |  11.640  | FAILED | [Click here for Details](06-02-2023-03-27-12/47/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 48
+NOW is 06-02-2023-07-04-43
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.7838 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.7118 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-07-01-25
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-07-05-57
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",48,262, 16.279 ,4.176, 12.102 ,5.826,6.021,,,,962m,Error
+Creating MARKDOWN REPORT...
+| 48 | 262 |  16.279  | 4.176 |  12.102  | FAILED | [Click here for Details](06-02-2023-03-27-12/48/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 49
+NOW is 06-02-2023-07-09-15
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77803 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.472 s, 71.0 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-07-05-57
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-07-10-29
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",49,262, 16.045 ,4.155, 11.889 ,6.017,6.054,,,,1.111,Error
+Creating MARKDOWN REPORT...
+| 49 | 262 |  16.045  | 4.155 |  11.889  | FAILED | [Click here for Details](06-02-2023-03-27-12/49/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 50
+NOW is 06-02-2023-07-13-47
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78037 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8693 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-07-10-29
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-07-15-01
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",50,263, 14.795 ,4.150, 10.645 ,6.653,5.954,,,,1.192,Error
+Creating MARKDOWN REPORT...
+| 50 | 263 |  14.795  | 4.150 |  10.645  | FAILED | [Click here for Details](06-02-2023-03-27-12/50/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 51
+NOW is 06-02-2023-07-18-19
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78547 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.5997 s, 70.9 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-07-15-01
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-07-19-32
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",51,262, 16.241 ,4.120, 12.120 ,5.799,5.951,,,,1.048,Error
+Creating MARKDOWN REPORT...
+| 51 | 262 |  16.241  | 4.120 |  12.120  | FAILED | [Click here for Details](06-02-2023-03-27-12/51/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 52
+NOW is 06-02-2023-07-22-50
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77837 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8759 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-07-19-32
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-07-24-05
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",52,263, 16.159 ,4.150, 12.009 ,5.873,5.736,,,,1.155,Error
+Creating MARKDOWN REPORT...
+| 52 | 263 |  16.159  | 4.150 |  12.009  | FAILED | [Click here for Details](06-02-2023-03-27-12/52/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 53
+NOW is 06-02-2023-07-27-23
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78233 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.7858 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-07-24-05
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-07-28-37
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",53,263, 15.697 ,4.136, 11.560 ,5.936,5.992,,,,1.184,Error
+Creating MARKDOWN REPORT...
+| 53 | 263 |  15.697  | 4.136 |  11.560  | FAILED | [Click here for Details](06-02-2023-03-27-12/53/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 54
+NOW is 06-02-2023-07-31-55
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77994 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 62.5172 s, 68.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 264
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-07-28-37
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-07-33-10
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",54,264, 15.325 ,4.158, 11.166 ,6.072,5.883,,,,1.085,Error
+Creating MARKDOWN REPORT...
+| 54 | 264 |  15.325  | 4.158 |  11.166  | FAILED | [Click here for Details](06-02-2023-03-27-12/54/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 55
+NOW is 06-02-2023-07-36-28
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78174 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.6123 s, 70.9 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-07-33-10
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-07-37-42
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",55,262, 15.877 ,4.103, 11.773 ,5.937,5.857,,,,1.017,Error
+Creating MARKDOWN REPORT...
+| 55 | 262 |  15.877  | 4.103 |  11.773  | FAILED | [Click here for Details](06-02-2023-03-27-12/55/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 56
+NOW is 06-02-2023-07-41-00
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77113 s, 69.1 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.7989 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-07-37-42
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-07-42-14
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",56,262, 16.030 ,4.110, 11.920 ,5.814,6.055,,,,1.204,Error
+Creating MARKDOWN REPORT...
+| 56 | 262 |  16.030  | 4.110 |  11.920  | FAILED | [Click here for Details](06-02-2023-03-27-12/56/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 57
+NOW is 06-02-2023-07-45-32
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78098 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8086 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-07-42-14
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-07-46-47
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",57,263, 15.067 ,4.142, 10.924 ,6.266,6.052,,,,1.152,Error
+Creating MARKDOWN REPORT...
+| 57 | 263 |  15.067  | 4.142 |  10.924  | FAILED | [Click here for Details](06-02-2023-03-27-12/57/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 58
+NOW is 06-02-2023-07-50-04
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77838 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 62.5972 s, 68.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 264
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-07-46-47
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-07-51-20
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",58,264, 15.688 ,4.122, 11.566 ,6.072,6.152,,,,1.036,Error
+Creating MARKDOWN REPORT...
+| 58 | 264 |  15.688  | 4.122 |  11.566  | FAILED | [Click here for Details](06-02-2023-03-27-12/58/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 59
+NOW is 06-02-2023-07-54-38
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77522 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.7332 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-07-51-20
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-07-55-52
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",59,262, 15.227 ,4.148, 11.079 ,6.190,6.009,,,,1.096,Error
+Creating MARKDOWN REPORT...
+| 59 | 262 |  15.227  | 4.148 |  11.079  | FAILED | [Click here for Details](06-02-2023-03-27-12/59/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 60
+NOW is 06-02-2023-07-59-11
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78229 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 64.0416 s, 67.1 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 266
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-07-55-52
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-08-00-28
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",60,266, 15.031 ,4.171, 10.860 ,6.511,5.935,,,,982m,Error
+Creating MARKDOWN REPORT...
+| 60 | 266 |  15.031  | 4.171 |  10.860  | FAILED | [Click here for Details](06-02-2023-03-27-12/60/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 61
+NOW is 06-02-2023-08-03-46
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78173 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 62.6037 s, 68.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 264
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-08-00-28
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-08-05-02
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",61,264, 16.060 ,4.145, 11.914 ,5.916,5.766,,,,1.155,Error
+Creating MARKDOWN REPORT...
+| 61 | 264 |  16.060  | 4.145 |  11.914  | FAILED | [Click here for Details](06-02-2023-03-27-12/61/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 62
+NOW is 06-02-2023-08-08-20
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78099 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 62.3378 s, 68.9 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 264
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-08-05-02
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-08-09-35
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",62,264, 14.927 ,4.131, 10.795 ,6.351,5.978,,,,1.125,Error
+Creating MARKDOWN REPORT...
+| 62 | 264 |  14.927  | 4.131 |  10.795  | FAILED | [Click here for Details](06-02-2023-03-27-12/62/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 63
+NOW is 06-02-2023-08-12-53
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78718 s, 68.9 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 62.3492 s, 68.9 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 264
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-08-09-35
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-08-14-09
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",63,264, 16.002 ,4.141, 11.860 ,6.014,5.955,,,,1.144,Error
+Creating MARKDOWN REPORT...
+| 63 | 264 |  16.002  | 4.141 |  11.860  | FAILED | [Click here for Details](06-02-2023-03-27-12/63/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 64
+NOW is 06-02-2023-08-17-27
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78433 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 64.1681 s, 66.9 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 265
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-08-14-09
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-08-18-44
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",64,265, 14.887 ,4.128, 10.759 ,6.392,5.870,,,,1.125,Error
+Creating MARKDOWN REPORT...
+| 64 | 265 |  14.887  | 4.128 |  10.759  | FAILED | [Click here for Details](06-02-2023-03-27-12/64/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 65
+NOW is 06-02-2023-08-22-02
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77549 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 62.2968 s, 68.9 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 264
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-08-18-44
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-08-23-18
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",65,264, 16.148 ,4.136, 12.012 ,5.839,5.810,,,,1.227,Error
+Creating MARKDOWN REPORT...
+| 65 | 264 |  16.148  | 4.136 |  12.012  | FAILED | [Click here for Details](06-02-2023-03-27-12/65/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 66
+NOW is 06-02-2023-08-26-36
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77376 s, 69.1 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.7994 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-08-23-18
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-08-27-50
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",66,262, 15.916 ,4.127, 11.789 ,5.859,5.908,,,,1.217,Error
+Creating MARKDOWN REPORT...
+| 66 | 262 |  15.916  | 4.127 |  11.789  | FAILED | [Click here for Details](06-02-2023-03-27-12/66/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 67
+NOW is 06-02-2023-08-31-08
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77596 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8418 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-08-27-50
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-08-32-22
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",67,262, 14.637 ,4.137, 10.499 ,6.703,5.956,,,,1.003,Error
+Creating MARKDOWN REPORT...
+| 67 | 262 |  14.637  | 4.137 |  10.499  | FAILED | [Click here for Details](06-02-2023-03-27-12/67/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 68
+NOW is 06-02-2023-08-35-40
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77882 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 62.2129 s, 69.0 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 264
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-08-32-22
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-08-36-56
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",68,264, 15.198 ,4.151, 11.046 ,5.947,6.229,,,,1.068,Error
+Creating MARKDOWN REPORT...
+| 68 | 264 |  15.198  | 4.151 |  11.046  | FAILED | [Click here for Details](06-02-2023-03-27-12/68/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 69
+NOW is 06-02-2023-08-40-14
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.76202 s, 69.2 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.1902 s, 71.4 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 261
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-08-36-56
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-08-41-27
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",69,261, 15.899 ,4.143, 11.755 ,5.881,5.896,,,,967m,Error
+Creating MARKDOWN REPORT...
+| 69 | 261 |  15.899  | 4.143 |  11.755  | FAILED | [Click here for Details](06-02-2023-03-27-12/69/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 70
+NOW is 06-02-2023-08-44-46
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77968 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 65.8 s, 65.3 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 268
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-08-41-27
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-08-46-05
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",70,268, 15.011 ,4.156, 10.854 ,6.422,5.856,,,,1.123,Error
+Creating MARKDOWN REPORT...
+| 70 | 268 |  15.011  | 4.156 |  10.854  | FAILED | [Click here for Details](06-02-2023-03-27-12/70/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 71
+NOW is 06-02-2023-08-49-23
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78193 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 63.731 s, 67.4 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 266
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-08-46-05
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-08-50-40
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",71,266, 16.231 ,4.136, 12.094 ,5.914,5.867,,,,959m,Error
+Creating MARKDOWN REPORT...
+| 71 | 266 |  16.231  | 4.136 |  12.094  | FAILED | [Click here for Details](06-02-2023-03-27-12/71/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 72
+NOW is 06-02-2023-08-53-58
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77856 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 104.454 s, 41.1 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 306
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-08-50-40
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-08-55-55
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",72,306, 14.571 ,4.124, 10.446 ,6.489,6.072,,,,1.101,Error
+Creating MARKDOWN REPORT...
+| 72 | 306 |  14.571  | 4.124 |  10.446  | FAILED | [Click here for Details](06-02-2023-03-27-12/72/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 73
+NOW is 06-02-2023-08-59-14
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77332 s, 69.1 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.6367 s, 70.8 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-08-55-55
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-09-00-28
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",73,263, 15.192 ,4.160, 11.032 ,6.222,6.052,,,,1.036,Error
+Creating MARKDOWN REPORT...
+| 73 | 263 |  15.192  | 4.160 |  11.032  | FAILED | [Click here for Details](06-02-2023-03-27-12/73/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 74
+NOW is 06-02-2023-09-03-46
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78246 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.876 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-09-00-28
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-09-05-00
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",74,263, 15.165 ,4.131, 11.034 ,6.115,6.103,,,,1.090,Error
+Creating MARKDOWN REPORT...
+| 74 | 263 |  15.165  | 4.131 |  11.034  | FAILED | [Click here for Details](06-02-2023-03-27-12/74/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 75
+NOW is 06-02-2023-09-08-18
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77737 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.7741 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-09-05-00
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-09-09-32
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",75,262, 14.916 ,4.131, 10.785 ,6.410,5.869,,,,1.124,Error
+Creating MARKDOWN REPORT...
+| 75 | 262 |  14.916  | 4.131 |  10.785  | FAILED | [Click here for Details](06-02-2023-03-27-12/75/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 76
+NOW is 06-02-2023-09-12-50
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78575 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.9939 s, 70.4 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-09-09-32
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-09-14-04
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",76,262, 15.721 ,4.121, 11.600 ,5.911,6.101,,,,1.102,Error
+Creating MARKDOWN REPORT...
+| 76 | 262 |  15.721  | 4.121 |  11.600  | FAILED | [Click here for Details](06-02-2023-03-27-12/76/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 77
+NOW is 06-02-2023-09-17-22
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78206 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.9769 s, 70.4 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-09-14-04
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-09-18-37
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",77,263, 15.411 ,4.158, 11.252 ,5.818,5.682,,,,1.096,Error
+Creating MARKDOWN REPORT...
+| 77 | 263 |  15.411  | 4.158 |  11.252  | FAILED | [Click here for Details](06-02-2023-03-27-12/77/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 78
+NOW is 06-02-2023-09-21-55
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77523 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 61.0243 s, 70.4 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-09-18-37
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-09-23-09
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",78,263, 16.110 ,4.140, 11.969 ,5.956,6.086,,,,1.140,Error
+Creating MARKDOWN REPORT...
+| 78 | 263 |  16.110  | 4.140 |  11.969  | FAILED | [Click here for Details](06-02-2023-03-27-12/78/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 79
+NOW is 06-02-2023-09-26-27
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78284 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.9458 s, 70.5 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-09-23-09
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-09-27-41
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",79,262, 16.041 ,4.122, 11.919 ,5.999,6.119,,,,1.070,Error
+Creating MARKDOWN REPORT...
+| 79 | 262 |  16.041  | 4.122 |  11.919  | FAILED | [Click here for Details](06-02-2023-03-27-12/79/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 80
+NOW is 06-02-2023-09-30-59
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.79256 s, 68.9 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 61.0506 s, 70.4 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-09-27-41
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-09-32-14
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",80,263, 15.819 ,4.156, 11.663 ,5.953,5.909,,,,1.098,Error
+Creating MARKDOWN REPORT...
+| 80 | 263 |  15.819  | 4.156 |  11.663  | FAILED | [Click here for Details](06-02-2023-03-27-12/80/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 81
+NOW is 06-02-2023-09-35-32
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.7792 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.9514 s, 70.5 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-09-32-14
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-09-36-46
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",81,263, 15.114 ,4.135, 10.978 ,6.462,5.889,,,,1.151,Error
+Creating MARKDOWN REPORT...
+| 81 | 263 |  15.114  | 4.135 |  10.978  | FAILED | [Click here for Details](06-02-2023-03-27-12/81/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 82
+NOW is 06-02-2023-09-40-04
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 14.1104 s, 38.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.6697 s, 70.8 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 268
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-09-36-46
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-09-41-24
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",82,268, 14.732 ,4.135, 10.596 ,6.637,6.066,,,,1.131,Error
+Creating MARKDOWN REPORT...
+| 82 | 268 |  14.732  | 4.135 |  10.596  | FAILED | [Click here for Details](06-02-2023-03-27-12/82/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 83
+NOW is 06-02-2023-09-44-42
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78173 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.741 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-09-41-24
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-09-45-56
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",83,262, 15.920 ,4.140, 11.780 ,5.957,5.957,,,,1.121,Error
+Creating MARKDOWN REPORT...
+| 83 | 262 |  15.920  | 4.140 |  11.780  | FAILED | [Click here for Details](06-02-2023-03-27-12/83/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 84
+NOW is 06-02-2023-09-49-14
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77888 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8857 s, 70.5 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-09-45-56
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-09-50-29
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",84,263, 14.980 ,4.171, 10.808 ,6.421,5.906,,,,1.124,Error
+Creating MARKDOWN REPORT...
+| 84 | 263 |  14.980  | 4.171 |  10.808  | FAILED | [Click here for Details](06-02-2023-03-27-12/84/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 85
+NOW is 06-02-2023-09-53-47
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78556 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.5819 s, 70.9 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-09-50-29
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-09-55-00
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",85,262, 14.733 ,4.128, 10.605 ,6.599,5.920,,,,1.101,Error
+Creating MARKDOWN REPORT...
+| 85 | 262 |  14.733  | 4.128 |  10.605  | FAILED | [Click here for Details](06-02-2023-03-27-12/85/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 86
+NOW is 06-02-2023-09-58-18
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.7865 s, 68.9 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.695 s, 70.8 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-09-55-00
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-09-59-32
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",86,262, 15.722 ,4.176, 11.545 ,6.020,5.925,,,,1.129,Error
+Creating MARKDOWN REPORT...
+| 86 | 262 |  15.722  | 4.176 |  11.545  | FAILED | [Click here for Details](06-02-2023-03-27-12/86/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 87
+NOW is 06-02-2023-10-02-50
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.7762 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.7078 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-09-59-32
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-10-04-04
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",87,262, 16.068 ,4.129, 11.938 ,5.903,5.967,,,,1.133,Error
+Creating MARKDOWN REPORT...
+| 87 | 262 |  16.068  | 4.129 |  11.938  | FAILED | [Click here for Details](06-02-2023-03-27-12/87/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 88
+NOW is 06-02-2023-10-07-22
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77988 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 61.0344 s, 70.4 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-10-04-04
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-10-08-37
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",88,263, 15.062 ,4.107, 10.955 ,6.126,5.894,,,,990m,Error
+Creating MARKDOWN REPORT...
+| 88 | 263 |  15.062  | 4.107 |  10.955  | FAILED | [Click here for Details](06-02-2023-03-27-12/88/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 89
+NOW is 06-02-2023-10-11-55
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77945 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.7239 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-10-08-37
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-10-13-09
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",89,263, 14.763 ,4.135, 10.627 ,6.457,5.867,,,,1.166,Error
+Creating MARKDOWN REPORT...
+| 89 | 263 |  14.763  | 4.135 |  10.627  | FAILED | [Click here for Details](06-02-2023-03-27-12/89/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 90
+NOW is 06-02-2023-10-16-27
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.7767 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.7388 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-10-13-09
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-10-17-41
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",90,262, 16.139 ,4.124, 12.015 ,5.804,5.971,,,,1.130,Error
+Creating MARKDOWN REPORT...
+| 90 | 262 |  16.139  | 4.124 |  12.015  | FAILED | [Click here for Details](06-02-2023-03-27-12/90/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 91
+NOW is 06-02-2023-10-20-59
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77004 s, 69.1 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 61.0199 s, 70.4 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-10-17-41
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-10-22-13
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",91,262, 14.973 ,4.129, 10.844 ,6.247,5.733,,,,1.143,Error
+Creating MARKDOWN REPORT...
+| 91 | 262 |  14.973  | 4.129 |  10.844  | FAILED | [Click here for Details](06-02-2023-03-27-12/91/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 92
+NOW is 06-02-2023-10-25-31
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78554 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8641 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-10-22-13
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-10-26-45
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",92,262, 16.354 ,4.162, 12.192 ,5.915,5.788,,,,1.098,Error
+Creating MARKDOWN REPORT...
+| 92 | 262 |  16.354  | 4.162 |  12.192  | FAILED | [Click here for Details](06-02-2023-03-27-12/92/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 93
+NOW is 06-02-2023-10-30-03
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77207 s, 69.1 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8531 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-10-26-45
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-10-31-17
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",93,262, 16.022 ,4.143, 11.879 ,5.905,5.923,,,,1.170,Error
+Creating MARKDOWN REPORT...
+| 93 | 262 |  16.022  | 4.143 |  11.879  | FAILED | [Click here for Details](06-02-2023-03-27-12/93/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 94
+NOW is 06-02-2023-10-34-36
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78176 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.9203 s, 70.5 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-10-31-17
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-10-35-50
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",94,263, 15.461 ,4.168, 11.292 ,6.105,5.822,,,,1.012,Error
+Creating MARKDOWN REPORT...
+| 94 | 263 |  15.461  | 4.168 |  11.292  | FAILED | [Click here for Details](06-02-2023-03-27-12/94/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 95
+NOW is 06-02-2023-10-39-08
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 9.3896 s, 57.2 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.7817 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 264
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-10-35-50
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-10-40-24
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",95,264, 14.815 ,4.132, 10.683 ,6.467,5.970,,,,1.115,Error
+Creating MARKDOWN REPORT...
+| 95 | 264 |  14.815  | 4.132 |  10.683  | FAILED | [Click here for Details](06-02-2023-03-27-12/95/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 96
+NOW is 06-02-2023-10-43-42
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.7646 s, 69.1 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8163 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-10-40-24
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-10-44-56
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",96,263, 15.855 ,4.144, 11.710 ,5.549,5.516,,,,986m,Error
+Creating MARKDOWN REPORT...
+| 96 | 263 |  15.855  | 4.144 |  11.710  | FAILED | [Click here for Details](06-02-2023-03-27-12/96/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 97
+NOW is 06-02-2023-10-48-14
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77508 s, 69.1 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.741 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-10-44-56
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-10-49-28
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",97,263, 15.080 ,4.102, 10.977 ,6.396,5.915,,,,1.088,Error
+Creating MARKDOWN REPORT...
+| 97 | 263 |  15.080  | 4.102 |  10.977  | FAILED | [Click here for Details](06-02-2023-03-27-12/97/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 98
+NOW is 06-02-2023-10-52-46
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77771 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.8137 s, 70.6 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 263
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-10-49-28
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-10-54-00
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",98,263, 15.619 ,4.128, 11.490 ,6.079,5.902,,,,986m,Error
+Creating MARKDOWN REPORT...
+| 98 | 263 |  15.619  | 4.128 |  11.490  | FAILED | [Click here for Details](06-02-2023-03-27-12/98/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 99
+NOW is 06-02-2023-10-57-18
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.77362 s, 69.1 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.712 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-10-54-00
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-10-58-32
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",99,262, 15.304 ,4.139, 11.164 ,6.052,5.864,,,,1.092,Error
+Creating MARKDOWN REPORT...
+| 99 | 262 |  15.304  | 4.139 |  11.164  | FAILED | [Click here for Details](06-02-2023-03-27-12/99/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+*********************************************************************
+TEST NAME IS REALBOOT
+Current Test Number is 100
+NOW is 06-02-2023-11-01-50
+524288+0 records in
+524288+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 7.78408 s, 69.0 MB/s
+Revo Checksum Matched
+4194302+0 records in
+4194302+0 records out
+4294965248 bytes (4.3 GB, 4.0 GiB) copied, 60.7877 s, 70.7 MB/s
+Mainvo Checksum Matched
+Checking for ssh port to become reachable...
+
+SYSTEM STATUS is: degraded
+\\\ SYSTEM DEGRADED. Failed Services: 
+● weston@industrial.service                                                                                         loaded failed failed    Weston Wayland Compositor (on tty7)
+Getting degraded-services into /tmp/degraded-06-02-2023-03-27-12 
+\\\ Resetting failed Services...
+SYSTEM STATUS is: running
+C2G Panel boot has completed 
+TOTAL_BOOT_DURATION is 262
+PREV_BOOT_COMPLETED_SEC is 06-02-2023-10-58-32
+CURRENT_BOOT_COMPLETED_SEC is 06-02-2023-11-03-04
+ --------------
+Creating CSV REPORT...
+MTP700_Unified_Basic,R02.05.00.00_01.01.01.02,BUILD_ID="HMI_ubp-3.4~F0612",100,262, 16.055 ,4.129, 11.926 ,5.919,6.020,,,,1.078,Error
+Creating MARKDOWN REPORT...
+| 100 | 262 |  16.055  | 4.129 |  11.926  | FAILED | [Click here for Details](06-02-2023-03-27-12/100/details.md) |
+Creating DETAILED REPORT...
+Getting findmnt into /tmp/findmnt-06-02-2023-03-27-12 
+Getting ip a into /tmp/ipa-06-02-2023-03-27-12 
+Getting dmesg into /tmp/dmesg-06-02-2023-03-27-12 
+Getting systemctl into /tmp/systemctl-06-02-2023-03-27-12 
+Getting journalctl into /tmp/journalctl-06-02-2023-03-27-12 
+Rebooting.
+TEST IS TOTALLY COMPLETED !!!

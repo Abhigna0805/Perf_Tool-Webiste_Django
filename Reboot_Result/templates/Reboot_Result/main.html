@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Industrial OS</title>
+  {% load static %}  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="/static/Reboot_Result/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/static/Reboot_Result/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23019901-1"></script>
+  <script src="{% static 'Reboot_Result/js/main.js' %}"></script>
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/"> <img id="logo-icon" src="/static/Reboot_Result/images/indlogo.png"></a>
+      <button class="btn btn-secondary my-2 my-sm-0" type="button" onclick="backpage()">Back</button>
+    </div>
+  </nav>
+  
+ <div class="sidenav bg-primary">
+    <h1 style="padding-left: 10px;">Choose Edition</h1>
+    {% for file in files %}
+    <div class="nav-item dropdown"  style="padding:0 50px 30px 50px">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:white;font-size: 25px;font-family:Nunito;">{{ file.name }}</a>
+      <div class="dropdown-menu">
+        <h4>Releases</h4>
+        {% for edition in file.editions %}
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="/builds?path={{file.name}}/{{edition}}"><h5>{{edition}}</h5></a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+ 
+
+	<div class="container">
+      {% block content %}
+      {% endblock content %}
+   </div>
+  
+   <script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="https://bootswatch.com/_vendor/prismjs/prism.js" data-manual></script>
+   <script src="https://bootswatch.com/_assets/js/custom.js"></script>
+  
+   
+</body>  
+</html>

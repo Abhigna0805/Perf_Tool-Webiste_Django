@@ -1,0 +1,18 @@
+{% extends 'Reboot_Result/main.html' %}
+{% load static %}
+{% block content %}
+  <div class="main">
+     <span style="text-align: center;">
+      <h1>Industrial OS - {{ release }} - Release</h1>
+      <p id="my" > {{ version }} has updated features and inbuilt functions </p>
+     </span>
+       {% for item in folder_content %}
+        <div class="box-ele1 bg-light">
+             <h5 style="display: inline-block;">{{ item.file_name }}</h5>
+             <a href= "/results?path={{path}}/{{item.file_name}}" >
+              <button type="button" class="btn btn-secondary my-2 my-sm-0" type="submit">Explore</button></a>
+        </div>        
+        {% endfor %}
+  </div>
+ <script src="{% static 'Reboot_Result/js/main.js' %}"></script>
+{% endblock content %}

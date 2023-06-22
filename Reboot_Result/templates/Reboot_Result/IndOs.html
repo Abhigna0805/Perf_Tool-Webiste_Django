@@ -1,0 +1,15 @@
+{% extends 'Reboot_Result/main.html' %}
+{% load static %}
+{% block content %}
+  <div class="main" style="text-align: center;"  >
+     <h1>Introduction to Industrial OS</h1>    
+     <h5>Industrial OS is a Debian-based Linux distribution. Debian is a broadly utilized, enterprise-class, open source Linux operating system (OS) that allows different levels of OS customization for multiple architectures.</h5>
+     <h5> The majority of Industrial OS packages come unchanged from Debian. On top of the Debian base, Industrial OS provides additional components, such as Docker and SWUpdate, to help embedded platform developers assemble and configure the OS before deployment.</h5>
+     <h5>Industrial OS introduces the benefits of a customizable OS on top of a stable Linux distribution</h5>
+     <img  id="logo-icon2" src="/static/Reboot_Result/images/omni-value.png">
+     <h4><b>This page provides the performance test reports of different editions of Industrial OS</b></h4>
+     <h4><u>Browse editions from left side</u></h4>
+      <a href= "/help/" ><button type="button" class="btn btn-light my-2 my-sm-0"  style="color: var(--bs-primary);" type="submit" ><b>Help <i class="fa fa-question-circle"></i></b></button></a>
+  </div>
+ <script src="{% static 'Reboot_Result/js/main.js' %}"></script> 
+{% endblock content %}
