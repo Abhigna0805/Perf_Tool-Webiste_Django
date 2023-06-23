@@ -34,7 +34,7 @@ Operation:
 
 > Dynamic pages are created by implementing Python functions in views.py and passing variables.
 
->  Frontend and backend are integrated using JavaScript for functionalities such as onclick and scrollintoview.Inspired from Minty them from https://bootswatch.com/minty/
+>  Frontend and backend are integrated using JavaScript for functionalities such as onclick and scrollintoview.
 
 
 References:
